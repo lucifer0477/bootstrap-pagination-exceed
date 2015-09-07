@@ -1,4 +1,4 @@
-# bootstrap-pagination-exceed
+# jquery-plugin to avoid bootstrap-pagination-exceed
 jquery-plugin to avoid exceeding the displayed paging-items in a bootstrap-paging-bar
 
 works for one ".pagination" on the current page!
