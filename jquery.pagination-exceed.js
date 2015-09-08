@@ -8,7 +8,9 @@
 *
 *	works for one ".pagination" on the current page!
 *
-*	USAGE (all values are optional):
+*
+*	USAGE (ALL VALUES ARE OPTIONAL):
+*
 *	jQuery().pagination_exceed({
 *		showMaxPagingItems: 3,			// NUMBER: amount of displaying cells with numbered pagingItems
 *		hideWhere: 			'beginEnd',	// possible string-values: 'nearActive', 'beginEnd'
@@ -42,7 +44,7 @@
 		// only do stuff, if there is 1 pagination on page
 		if ( jQuery('.pagination').length==1 ) {
 			
-			var li = jQuery('.pagination').find('li');//var li = jQuery(this).find('li');
+			var li = jQuery('.pagination').find('li');
 			
 			li.each (function() {
 				var me = jQuery(this);
@@ -134,5 +136,5 @@
 		}
 	
     };
-	//*/
+
 })(jQuery);
